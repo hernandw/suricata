@@ -9,5 +9,20 @@
     --white: #fff;
     --pink: #e83e8c;
     --info: #17a2b8;
+    --text: #707070;
 }
 
+.navbar-brand img {
+    height: 75px;
+}
+
+h1 {
+    color: var(--text);
+    text-align: center;
+}
+
+
+footer img {
+    height: 100px;
+    width: 54px;
+}
