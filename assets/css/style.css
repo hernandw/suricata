@@ -1,28 +1,58 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-:root {
-    --black: #212529;
-    --white: #fff;
-    --pink: #e83e8c;
-    --info: #17a2b8;
-    --text: #707070;
-}
-
-.navbar-brand img {
-    height: 75px;
-}
-
-h1 {
-    color: var(--text);
-    text-align: center;
-}
-
-
-footer img {
-    height: 100px;
-    width: 54px;
-}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+     :root {
+        --black: #212529;
+        --white: #fff;
+        --pink: #e83e8c;
+        --info: #17a2b8;
+        --text: #707070;
+    }
+    
+    .navbar {
+        background-color: #e83e8c;
+    }
+    
+    .navbar-brand img {
+        height: 75px;
+    }
+    
+    .card-deck .card {
+        margin-bottom: 2em;
+    }
+    
+    .tituloFoot {
+        /* letter spacing para títuño en el foot */
+        letter-spacing: 2px;
+        font-size: 40px;
+    }
+    
+    .iconoFoot {
+        /* letter spacing para separar un poco cada icono de la zona del foot */
+        letter-spacing: 30px;
+        display: inline-flex;
+    }
+    
+    h1 {
+        color: var(--text);
+        text-align: center;
+    }
+    
+    footer img {
+        height: 100px;
+        width: 54px;
+    }
+    
+    .footer {
+        background-color: #e83e8c;
+        width: 100%;
+    }
+    
+    div.card .card-body:nth-child(4) {
+        display: flex;
+        justify-content: space-between;
+    }
